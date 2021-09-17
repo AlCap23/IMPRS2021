@@ -71,3 +71,6 @@ plot(
 )
 
 savefig(joinpath(pwd(), "figures", "lotka_volterra_optimal_control_input.png"))
+
+plot(ls, title = "Objective", xlabel = "Iterations", label = nothing)
+savefig(joinpath(pwd(), "figures", "lotka_volterra_optimal_control_objective.png"))
